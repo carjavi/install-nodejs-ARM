@@ -1,18 +1,28 @@
-# Installion nodejs ARM
+# Installion nodejs & npm ARM
 
-<span style="background-color:#535050">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">OS</font>&nbsp;&nbsp;&nbsp;</span><span style="background-color:#C03027">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">Raspbian GNU/Linux 11</font>&nbsp;&nbsp;&nbsp;</span>
-
-<span style="background-color:#535050">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">node</font>&nbsp;&nbsp;&nbsp;</span><span style="background-color:#53B21D">&nbsp;&nbsp;&nbsp;&nbsp;<font color="white">18.0.9</font>&nbsp;&nbsp;&nbsp;</span>
-
-![Conda](https://img.shields.io/conda/pn/conda-forge/python?color=ui&label=OS&logo=jhgjkg&logoColor=jhkjh)
-
-### Raspberry Pi rasbian Aug 22
+<img src="https://img.shields.io/badge/OS-Rasbian%20GNU%20linux ver%2011-green">
+<img src="https://img.shields.io/badge/Hardware-raspberry%20ver%204-red">
+<div style="text-align: right"> Aug 22</div>
+<br>
 
 
-* Option 1*
+
+
+  *Option 1*
 
 ```
 $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 ```
+Una vez instalado, cierra la terminal y abre otra.
+```
+$ nvm install node
+```
 
-* Option 2*
+### Probar instalación
+```
+$ node --version
+$ npm --version
+```
+
+
+  *Option 2*
