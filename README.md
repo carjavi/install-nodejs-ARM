@@ -2,7 +2,7 @@
 
 <br>
 
-<h1 align="center">Installion NODEJS & NPM ARM</h1>
+<h1 align="center">Installation NODEJS & NPM ARM</h1>
 
 <img src="https://img.shields.io/badge/OS-Rasbian%20GNU%20linux ver%2011-green">
 
