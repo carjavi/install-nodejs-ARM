@@ -27,6 +27,11 @@ $ npm --version
 ```
 $ sudo apt remove nodejs
 ```
+### Nota
+puede que se necesite instalar NVM
+```
+$ npm i nvm
+```
 
 <br>
 
