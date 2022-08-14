@@ -8,7 +8,7 @@
 
 <img src="https://img.shields.io/badge/Hardware-raspberry%20ver%204-red">
 
-<div style="text-align: right">         Aug 22</div>
+<h4 align="right">Aug 22</h4>
 
 <br>
 
