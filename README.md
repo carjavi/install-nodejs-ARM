@@ -4,9 +4,9 @@
 
 <h1 align="center">Installation NODEJS & NPM ARM</h1>
 
-<img src="https://img.shields.io/badge/OS-Rasbian%20GNU%20linux ver%2011-green">
+<img src="https://img.shields.io/badge/OS%20-Raspbian%20GNU%2FLinux%2011%20(bulleye)-yellowgreen">
 
-<img src="https://img.shields.io/badge/Hardware-raspberry%20ver%204-red">
+<img src="https://img.shields.io/badge/Hardware-Raspberry%20ver%204-red">
 
 <h4 align="right">Aug 22</h4>
 
