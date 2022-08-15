@@ -52,7 +52,7 @@ sudo chmod -R 755 /usr/local
 ```
 <br>
 
-# Autor
+# Author
 Copyright &copy; 2022 [carjavi](https://github.com/carjavi). <br>
 ```www.instintodigital.net``` <br>
 carjavi@hotmail.com <br>
