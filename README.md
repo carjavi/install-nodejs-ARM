@@ -50,3 +50,12 @@ sudo apt install tar
 sudo tar -xvf node-v16.16.0-linux-armv7l.tar.xz
 sudo chmod -R 755 /usr/local
 ```
+<br>
+
+# Autor
+Copyright &copy; 2022 [carjavi](https://github.com/carjavi). <br>
+```www.instintodigital.net``` <br>
+carjavi@hotmail.com <br>
+<p align="center">
+    <a href="https://instintodigital.net/" target="_blank"><img src="https://raw.githubusercontent.com/carjavi/install-nodejs-ARM/master/img/carjavi.png" height="100" alt="www.instintodigital.net"></a>
+</p>
