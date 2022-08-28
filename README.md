@@ -15,11 +15,16 @@
   ***Option 1***
 
 ```
-$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+curl -sL https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh -o install_nvm.sh
 ```
+```
+bash install_nvm.sh
+```
+
 Una vez instalado, cierra la terminal y abre otra.
 ```
-$ nvm install node
+source ~/.bash_profile
+nvm install node
 ```
 Eso instalará la última versión disponible
 
@@ -28,6 +33,16 @@ Eso instalará la última versión disponible
 $ node --version
 $ npm --version
 ```
+
+ver v0.34.0
+```
+$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+```
+Una vez instalado, cierra la terminal y abre otra.
+```
+$ nvm install node
+```
+
 
 ### Desinstalar nodejs si está instalado
 
