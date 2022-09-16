@@ -14,12 +14,13 @@
 <br>
 
 ***Option 0***
-excellent for a file.sh
+excellent for a file.sh node v17.9.0 /npm v8.5.5
 ```
-curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo su
+curl -fsSL https://deb.nodesource.com/setup_17.x | bash -
 ```
 ```
-sudo apt install -y nodejs
+sudo apt install nodejs
 ```
 
 
