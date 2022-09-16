@@ -7,10 +7,21 @@
 <img src="https://img.shields.io/badge/OS%20-Raspbian%20GNU%2FLinux%2011%20(bulleye)-yellowgreen">
 
 <img src="https://img.shields.io/badge/Hardware-Raspberry%20ver%204-red">
+<img src="https://img.shields.io/badge/Hardware-Raspberry%20ver%203-red">
 
 <h4 align="right">Aug 22</h4>
 
 <br>
+
+***Option 0***
+excellent for a file.sh
+```
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+```
+```
+sudo apt install -y nodejs
+```
+
 
   ***Option 1***
 
