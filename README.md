@@ -21,6 +21,11 @@ curl -fsSL https://deb.nodesource.com/setup_17.x | bash -
 ```
 ```
 sudo apt install nodejs
+npm install -g npm@8.19.2 // new
+```
+### Uninstall/ Remove NodeJS and NPM
+```
+sudo apt remove nodejs
 ```
 
 
@@ -35,8 +40,8 @@ bash install_nvm.sh
 
 Una vez instalado, cierra la terminal y abre otra.
 ```
-source ~/.bash_profile
 nvm install node
+npm install -g npm@8.19.2 
 ```
 Eso instalará la última versión disponible
 
