@@ -13,6 +13,7 @@
 
 <br>
 
+<!--
 ***Option 0***
 excellent for a file.sh node v17.9.0 /npm v8.5.5
 ```
@@ -27,7 +28,7 @@ npm install -g npm@8.19.2 // new
 ```
 sudo apt remove nodejs
 ```
-
+-->
 
   ***Option 1***
 
@@ -38,8 +39,9 @@ curl -sL https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh -o inst
 bash install_nvm.sh
 ```
 
-Una vez instalado, cierra la terminal y abre otra.
+> :warning: Una vez instalado, cierra la terminal y abre otra.
 ```
+source .bashrc
 nvm install node
 npm install -g npm@8.19.2 
 ```
