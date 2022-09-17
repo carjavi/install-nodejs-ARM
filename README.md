@@ -52,7 +52,7 @@ Eso instalará la última versión disponible
 $ node --version
 $ npm --version
 ```
-
+---
 ver v0.34.0
 ```
 $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
@@ -61,7 +61,7 @@ Una vez instalado, cierra la terminal y abre otra.
 ```
 $ nvm install node
 ```
-
+---
 
 ### Desinstalar nodejs si está instalado
 
@@ -75,6 +75,8 @@ $ npm i nvm
 ```
 
 <br>
+
+---
 
 ***Option 2***
 
