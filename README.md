@@ -8,7 +8,7 @@
 <img src="https://img.shields.io/badge/OS%20-Raspbian%20GNU%2FLinux%2010%20(buster)-yellowgreen">
 
 <img src="https://img.shields.io/badge/Hardware-Raspberry%20ver%204-red">
-<img src="https://img.shields.io/badge/Hardware-Raspberry%20ver%203-red">
+<img src="https://img.shields.io/badge/Hardware-Raspberry%203B%2B-red">
 <img src="https://img.shields.io/badge/Hardware-Raspberry%20Zero-red">
 
 <h4 align="right">Aug 22</h4>
