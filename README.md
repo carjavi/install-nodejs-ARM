@@ -112,7 +112,7 @@ nvm uninstall <version>
 # Repositorio NodeSource
 
 ```
-curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 sudo apt-get install -y nodejs
 sudo apt-get install -y npm
 ```
@@ -132,10 +132,14 @@ setup_lts.x // versión con soporte a largo plazo
 # Decargando el paguete de Nodejs de su sitio web 
 
 ```
-sudo wget https://nodejs.org/dist/v16.16.0/node-v16.16.0-linux-armv7l.tar.xz
+sudo wget https://nodejs.org/dist/v16.17.0/node-v16.17.0-linux-armv7l.tar.xz
 sudo apt install tar
-sudo tar -xvf node-v16.16.0-linux-armv7l.tar.xz
+sudo tar -xvf node-v16.17.0-linux-armv7l.tar.xz
+sudo cp -R node-v16.17.0-linux-armv7l/* /usr/local
+rm -rf node-*
 sudo chmod -R 755 /usr/local
+node -v && npm -v
+
 ```
 <br><br>
 
