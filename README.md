@@ -61,9 +61,15 @@ $ npm --version
 ```
 nvm --version
 ```
-> :bulb: Para verrificar que version de node esta actualmente
+
+> :bulb: Para verificar que version de node que esta actualmente
 ```
 nvm current
+```
+
+> :bulb:  instala la ultima version mas estable 
+```
+nvm install --lts
 ```
 
 > :bulb: instalar una aversion especifica
@@ -76,6 +82,13 @@ nvm install <version>
 nvm use <número de versión>
 //por ejemplo nvm use v12.18.1
 ```
+
+> :bulb: Poner una version predeterminada
+```
+nvm alias default <version>
+ex: nvm alias default 8.9.4
+```
+
 
 > :bulb: Para listar las diferentes versiones de node que tiene instaladas con nvm
 ```
@@ -196,7 +209,11 @@ use `sudo` on Ubuntu or run this as root on debian
 apt-get purge nodejs
 rm -r /etc/apt/sources.list.d/nodesource.list
 ```
+o
 
+```
+sudo apt remove nodejs
+```
 
 
 <br>
