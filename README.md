@@ -5,9 +5,11 @@
 <h1 align="center">Installation NODEJS & NPM for ARM</h1>
 
 <img src="https://img.shields.io/badge/OS%20-Raspbian%20GNU%2FLinux%2011%20(bulleye)-yellowgreen">
+<img src="https://img.shields.io/badge/OS%20-Raspbian%20GNU%2FLinux%2010%20(buster)-yellowgreen">
 
 <img src="https://img.shields.io/badge/Hardware-Raspberry%20ver%204-red">
 <img src="https://img.shields.io/badge/Hardware-Raspberry%20ver%203-red">
+<img src="https://img.shields.io/badge/Hardware-Raspberry%20Zero-red">
 
 <h4 align="right">Aug 22</h4>
 
@@ -91,7 +93,7 @@ setup_14.x
 setup_lts.x // versión con soporte a largo plazo
 ```
 
-<br>
+<br><br>
 
 ***Option 3***
 
@@ -108,8 +110,8 @@ sudo chmod -R 755 /usr/local
 # NodeJS Install Steps for Pi Zero
 Descargar
 ```
-wget <link to NodeJS ARMv61 from nodejs.org>
-#Example: wget https://unofficial-builds.nodejs.org/download/release/v14.13.0/node-v14.13.0-linux-armv6l.tar.xz
+//wget <link to NodeJS ARMv61 from nodejs.org>
+wget https://unofficial-builds.nodejs.org/download/release/v14.13.0/node-v14.13.0-linux-armv6l.tar.xz
 ```
 
 Descomprimir
@@ -124,7 +126,7 @@ Copie el contenido del archivo extraído en el directorio usr/local de su Pi Zer
 sudo cp -R node-v14.13.0-linux-armv6l/* /usr/local
 ```
 
-Ahora puede limpiar eliminando el archivo tarball que descargó y la carpeta extraída. Este comando eliminará cualquier archivo o carpeta que comience con 'nodo-' en su directorio actual. Asegúrese de no tener ninguna carpeta importante que use este prefijo, ya que también se eliminarán.
+Ahora puede limpiar eliminar el archivo que descargó y la carpeta extraída. Este comando eliminará cualquier archivo o carpeta que comience con ```nodo-``` en su directorio actual. Asegúrese de no tener ninguna carpeta importante que use este prefijo, ya que también se eliminarán.
 ```
 rm -rf node-*
 ```
@@ -136,7 +138,7 @@ node -v && npm -v
 
 ## Extra steps
 
-Es posible que deba hacer lo siguiente si recibe un 'error de comando no encontrado'. Primero, abra el archivo .profile usando nano
+Es posible que deba hacer lo siguiente si recibe un ```error de comando no encontrado```. Primero, abra el archivo .profile usando nano
 ```
 sudo nano ~/.profile
 ```
