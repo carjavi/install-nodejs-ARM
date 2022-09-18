@@ -80,13 +80,13 @@ nvm install <version>
 > :bulb: Si alguna vez necesitas cambiar de la versión de node, puedes simplemente ejecutar 
 ```
 nvm use <número de versión>
-//por ejemplo nvm use v12.18.1
+ej: nvm use v12.18.1
 ```
 
 > :bulb: Poner una version predeterminada
 ```
 nvm alias default <version>
-ex: nvm alias default 8.9.4
+ej: nvm alias default 8.9.4
 ```
 
 
