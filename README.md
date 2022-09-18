@@ -30,7 +30,7 @@ sudo apt remove nodejs
 ```
 -->
 
-  ***Option 1***
+***Option 1***
 
 # nvm (node version manager)
 
@@ -54,10 +54,9 @@ Eso instalará la última versión disponible
 $ node --version
 $ npm --version
 ```
-> :bulb: nvm --version para vericar si esta instalado. Si alguna vez necesitas cambiar de la versión de node, puedes simplemente ejecutar ```nvm use <número de versión>```, por ejemplo ```nvm use v12.18.1```.
-
-Para listar las diferentes versiones de node que tiene instaladas con nvm, ejecute ```nvm ls```.
-
+> :bulb: ```nvm --version``` para verificar la versión de nvm instalada. <br>
+> :bulb: Si alguna vez necesitas cambiar de la versión de node, puedes simplemente ejecutar ```nvm use <número de versión>```, por ejemplo ```nvm use v12.18.1```. <br>
+> :bulb: Para listar las diferentes versiones de node que tiene instaladas con nvm, ejecute ```nvm ls```.<br>
 > :bulb: Me gusta nvm porque me permite usar diferentes versiones de node para diferentes proyectos. A veces, puedes estar colaborando en un proyecto con alguien que usa una versión diferente de node y necesitas cambiar las versiones de node a lo que el proyecto requiere. Para esto, nvm es la mejor herramienta.
 
 ---
