@@ -92,18 +92,9 @@ setup_lts.x // versión con soporte a largo plazo
 ```
 <br>
 
-# Uninstall nodejs Ubuntu & Debian packages
-To completely remove Node.js installed from the deb.nodesource.com package methods above:
-
-use `sudo` on Ubuntu or run this as root on debian
-```
-apt-get purge nodejs
-rm -r /etc/apt/sources.list.d/nodesource.list
-```
-
----
-
 ***Option 3***
+
+# Decargando el paguete de Nodejs de su sitio web 
 
 ```
 sudo wget https://nodejs.org/dist/v16.16.0/node-v16.16.0-linux-armv7l.tar.xz
@@ -130,6 +121,17 @@ sudo npm install -g npm@latest
 ```
 sudo apt install build-essential
 ```
+
+# Uninstall nodejs Ubuntu & Debian packages
+To completely remove Node.js installed from the deb.nodesource.com package methods above:
+
+use `sudo` on Ubuntu or run this as root on debian
+```
+apt-get purge nodejs
+rm -r /etc/apt/sources.list.d/nodesource.list
+```
+
+
 
 <br>
 
