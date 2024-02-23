@@ -14,22 +14,17 @@
 <h4 align="right">Aug 22</h4>
 
 
-<!--
-***Option 0***
-excellent for a file.sh node v17.9.0 /npm v8.5.5
+# Installing Node.js with Apt from the Default Repositories
+### nodejs 21.6.1 Ubuntu 20.04
 ```
-sudo su
-curl -fsSL https://deb.nodesource.com/setup_17.x | bash -
+sudo apt update
+sudo apt install nodejs -y && sudo apt install npm -y
+node -v && npm -v
 ```
-```
-sudo apt install nodejs
-npm install -g npm@8.19.2 // new
-```
-### Uninstall/ Remove NodeJS and NPM
-```
-sudo apt remove nodejs
-```
--->
+
+info: https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04
+
+<br>
 
 ***Option 1***
 
